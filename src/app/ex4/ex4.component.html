@@ -1,0 +1,15 @@
+<h5 class="text-success">Создать CanDeactivate Guard</h5>
+
+<p>
+  Если пользователь взаимодействовал с формой,<br>
+  по нажатию на кнопку Leave Page, нужно отобразить диалоговое окно подтверждения (нативный confirm),<br>
+  чтобы пользователь мог подтвердить свое действие (покинуть страницу) либо отменить.<br>
+</p>
+
+<nav *ngIf="router.url !== '/ex4-form'">
+  <a routerLink="/ex4-form">Открыть форму</a>
+</nav>
+
+<router-outlet></router-outlet>
+
+
